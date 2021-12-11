@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
+ 
+
+</head>
+<body>
+<div class="block">
+  <input type="text" id="answer">
+<br>
+  <button value="1" onclick="answer.value+='1'">1</button>
+  <button value="2" onclick="answer.value+='2'">2</button>
+  <button value="3" onclick="answer.value+='3'">3</button>
+  <button value="+" onclick="answer.value+='+'">+</button>
+<br>
+  <button value="4" onclick="answer.value+='4'">4</button>
+  <button value="5" onclick="answer.value+='5'">5</button>
+  <button value="6" onclick="answer.value+='6'">6</button>
+  <button value="-" onclick="answer.value+='-'">-</button>
+<br>
+  <button value="7" onclick="answer.value+='7'">7</button>
+  <button value="8" onclick="answer.value+='8'">8</button>
+  <button value="9" onclick="answer.value+='9'">9</button>
+  <button value="*" onclick="answer.value+='*'">*</button>
+<br>
+  <button value="0" onclick="answer.value+='0'">0</button>
+  <button value="/" onclick="answer.value+='/'">/</button>
+  <button value="." onclick="answer.value+='.'">.</button>
+  <button value="=" onclick="answer.value=eval(answer.value)">=</button>
+<br>
+  <button value=" " class="but" onclick="answer.value=' '">clear all</button>
+
+
+
+
+
+</div>
+
+
+</body>
+</html>
